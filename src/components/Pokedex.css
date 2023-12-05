@@ -1,0 +1,152 @@
+
+.container-fluid {
+  padding: 5rem;
+
+}
+
+.pokedex-container{
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.pokedex-svg-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  left: -0.5px;
+  top: 40px;
+  z-index: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.pokedex-svg {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.card-header {
+  background-color: #F00121;
+  color: white;
+  position: relative; /* For absolute positioning of small buttons */
+  padding: 20px;
+}
+
+.screen-area-container {
+  position: relative;
+  z-index: 10; /* Ensure it is above other elements */
+ 
+}
+.screen-background{
+  margin-top: 50px;
+  background-color: #DEDEDE;
+  border-color: black;
+  border-radius: 10px;
+  border-style: solid;
+  height: 380px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 9;
+}
+.screen-area {
+  background-color: #6c757d;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  height: 300px;
+  z-index: 10; /* Ensure it is above the SVG */
+}
+
+
+.button-red {
+  background-color: #FB0000 !important;
+  color: white;
+}
+
+.button-yellow {
+  background-color: #FECA65 !important;
+  color: white;
+}
+
+.button-green {
+  background-color: #32CA65 !important;
+  color: white;
+}
+
+.card-header {
+  background-color: #DC0A2D;
+  border-style: none;
+  color: white;
+  position: relative; /* For absolute positioning of small buttons */
+  padding: 20px;
+}
+.card-body{
+  z-index: 5 !important;
+  background-color: #DC0A2D;
+  border-style: none;
+  border-color: #DC0A2D !important;
+}
+.small-buttons-cluster {
+  position: absolute;
+  transform: translateX(100%); /* Adjust horizontally to align with the left */
+  z-index: 10;;
+}
+.large-circle-button-blue {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: #3198CC !important;
+  color: white;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.large-circle-button-white {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 2px solid black;
+  background-color: white !important;
+  color: white;
+  position: relative;
+}
+
+.small-circle-button {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  margin: 4px;
+}
+
+.small-buttons-top {
+  
+}
+
+.screen-area {
+  background-color: #6c757d;
+  border-radius: .25rem;
+  height: 300px;
+}
+
+.status-bar {
+  background-color: #f8f9fa;
+  border-radius: .25rem;
+  padding: .5rem;
+  display: flex;
+  justify-content: between;
+}
+
+.status-text {
+  font-size: 1rem;
+}
