@@ -31,13 +31,17 @@ class Pokedex extends React.Component {
             <div className="card-body">
                 <div className="row justify-content-center">
                   <div className='screen-background'>
+                  <div className="top-buttons-container">
+                    <div className="red-circle-small me-3"></div> 
+                    <div className="red-circle-small"></div>
+                  </div>
                     <div className="col-md-5 screen-area-container w-75 justify-content-center">
                       <div className="screen-area text-white text-center d-flex justify-content-center align-items-center">
                         <span className="h2">Pokemon Screen</span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-7 pokedex-svg-container">
+                  <div className="pokedex-svg-container">
                     <svg className="pokedex-svg" xmlns="http://www.w3.org/2000/svg">
                     <rect width="800" height="454.742239" rx="0" ry="0" transform="translate(0 145.257761)" fill="#dc0a2d" strokeWidth="0"/>
                       <polygon points="0,-157.554163 149.842914,-48.686914 92.608014,127.463996 -92.608014,127.463996 -149.842914,-48.686914 0,-157.554163" transform="matrix(.650791 0.759257-.759257 0.650791 312.816861 145.257761)" fill="#dc0a2d" strokeWidth="0"/>
